@@ -1,0 +1,218 @@
+body {
+  background-color: #EAF6F6;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+
+}
+
+/* #c5e2ec; */
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* HORIZONTAL LINE */
+hr {
+  border-style: dotted none none;
+  border-color: #00FFFF;
+  border-width: 15px;
+  margin-left: 150px;
+  width: 30%;
+}
+.typeWriter{
+  color:rgb(43, 126, 235)
+}
+/* MENU */
+.navbar {
+  padding: 3% 9%;
+}
+
+.brandy {
+  color: rgb(43, 126, 235);
+}
+
+/* WHOM AM I SECTION */
+#who_am_I {
+  margin: 0 10% 0 10%;
+}
+.hi2_brandon{
+  padding: 5% 20% 0 0;
+}
+.bg_box {
+  padding: 5% 5% 5% 0;
+}
+
+.profile_photo {
+  margin-top: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+.read_more_button {
+  border: 3px solid black;
+  height: 50px;
+  margin: 50px 0 20px 15px;
+  padding: 10px;
+  width: 120px;
+}
+.read_more_text{
+  color: black;
+  font-size: bold;
+  text-decoration: none;
+}
+.arrow {
+  margin: 8%;
+}
+
+
+/* ABOUT ME SECTION */
+#about_me {
+  margin: 10% 10% 0 10%;
+}
+
+.triangle-behind {
+  border-radius: 20%;
+  border: 3px dotted rgb(43, 126, 235);
+  border-width: 4px;
+  height: 260px;
+  margin: 5% 5%;
+  position: absolute;
+  /* top: 820px; */
+  width: 260px;
+  z-index: -1
+}
+
+.body_image {
+  border-radius: 20%;
+  margin: 40% 40%;
+  height: 250px;
+  /* left: 100px; */
+  text-align: center;
+  /* top: 860px; */
+  /* position: absolute; */
+  width: 250px;
+}
+
+/* MY SKILLS */
+#my_skills {
+  margin: 10%;
+}
+
+.my_skills_text {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* WHAT I DO SECTION */
+#what_i_do {
+  text-align: center;
+  margin: 10%;
+}
+
+.what_box {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.what_Ido_box {
+  background-color: white;
+  height: 250px;
+  margin: 9px;
+  padding: 5px;
+  width: 100px;
+}
+
+.card-text {
+  font-size: 12px;
+}
+
+.symbols {
+  margin: 5px;
+}
+
+/* PORTFOLIO */
+#portfolio {
+  margin: 10%;
+  /* text-align: center; */
+}
+
+.portfolio {
+  margin: 20px;
+}
+
+.card-img-top {
+  height: 170px;
+  width: 286px;
+}
+
+/* CONTACT ME SECTION */
+#contact_me {
+  margin: 10%;
+}
+
+.contact_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin: 30px;
+  width: 300px;
+}
+
+/* CONTACT FORM */
+#contac_form {
+  margin: 10%;
+}
+
+/* FOOTER */
+#footer {
+  box-shadow: 0 0 0 4px #6ceeee;
+  background-color: white;
+  padding: 2% 5%;
+  margin-top: 15%;
+}
+
+.made_by {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.socials_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.socials {
+  margin: 0 20px 0 0;
+}
+
+.Connect {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.copyright {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 1100px) {
+  .profile_photo {
+    height: 100px;
+    width: 100px;
+  }
+
+  .who_am_I {
+    text-align: center;
+  }
+
+  #what_i_do {
+    text-align: center;
+  }
+}
